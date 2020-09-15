@@ -1,3 +1,4 @@
+#cerner_2^5_2020
 a = int(__import__("sys").argv[1])
 while a-1: print(a := int((a/2, 3*a+1)[a%2]))
 

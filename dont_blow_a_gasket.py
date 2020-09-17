@@ -1,3 +1,4 @@
+#cerner_2^5_2020
 c = [[int(bool(a or b)) for a in range(-1,2)] for b in range(-1,2)]
 for _ in range(int(__import__("sys").argv[1])):
     d = [[0 for _ in range(len(c)*3)] for _ in range(len(c)*3)]

@@ -1,3 +1,4 @@
+#cerner_2^5_2020
 print((lambda iterations : [int((((1+__import__("math").sqrt(5))/2)**n - (1-((1+__import__("math").sqrt(5))/2))**n)/__import__("math").sqrt(5)) for n in range(iterations)])(int(__import__("sys").argv[1])))
 '''
 This abomination against programming is an attempt to get the fibbonacci sequence in one line.

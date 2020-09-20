@@ -1,3 +1,4 @@
+#cerner_2^5_2020
 for i, _ in enumerate(__import__("sys").argv[1]): print("".join(list(__import__("sys").argv[1].upper())[i:]+list(__import__("sys").argv[1].upper())[:i]))
 
 '''

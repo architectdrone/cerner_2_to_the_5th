@@ -1,3 +1,4 @@
+#cerner_2^5_2020
 board, X_turn = [[" " for x in range(3)] for y in range(3)], True #Initialize variables
 while not ((board[0][0] == board[0][1] == board[0][2] != " ") or (board[1][0] == board[1][1] == board[1][2] != " ") or (board[2][0] == board[2][1] == board[2][2] != " ") or (board[0][0] == board[1][0] == board[2][0]!= " ") or (board[0][1] == board[1][1] == board[2][1]!= " ") or (board[0][2] == board[1][2] == board[2][2]!= " ") or (board[0][0] == board[1][1] == board[2][2]!= " ") or (board[2][0] == board[1][1] == board[0][2]!= " ") ): #Ensure win state is not reached
     print(f"\n\n\n\n{board[0][0]}|{board[1][0]}|{board[2][0]}\n-----\n{board[0][1]}|{board[1][1]}|{board[2][1]}\n-----\n{board[0][2]}|{board[1][2]}|{board[2][2]}")

@@ -1,3 +1,4 @@
+#cerner_2^5_2020
 current_x = float(__import__("sys").argv[2])
 for i in range(int(__import__("sys").argv[3])): print(current_x := float(__import__("sys").argv[1])*current_x*(1-current_x))
 

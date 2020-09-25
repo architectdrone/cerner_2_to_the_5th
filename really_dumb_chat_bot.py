@@ -1,3 +1,4 @@
+#cerner_2^5_2020
 c = []
 while True:
     c += (lambda d : [(a, b) for a, b in zip(d[:-1], d[1:])])("".join([a for a in __import__("itertools").filterfalse(lambda a : a in ["!", "?", ".", ","], input("> ").lower())]).split(" "))
